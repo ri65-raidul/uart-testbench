@@ -1,0 +1,58 @@
+../../../../../../verif_ip/sv_utils/test_utils.sv:205 NO "a non-instrumentable system task: $finish" (212)
+../../../../../../verif_ip/sv_utils/test_utils.sv:236 YES
+../../../../../../verif_ip/sv_utils/test_utils.sv:263 NO "a dynamic type expression" (264)
+../../../../../../verif_ip/sv_utils/test_utils.sv:268 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:46 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:62 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:68 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:85 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:100 YES
+/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv:111 YES
+/home/ri65/c2s2/core/ip/uart/rtl/helpers/synchronizer.sv:31 YES
+/home/ri65/c2s2/core/ip/uart/rtl/receiver.sv:60 YES
+/home/ri65/c2s2/core/ip/uart/rtl/receiver.sv:86 YES
+/home/ri65/c2s2/core/ip/uart/rtl/receiver.sv:121 YES
+/home/ri65/c2s2/core/ip/uart/rtl/receiver.sv:144 YES
+/home/ri65/c2s2/core/ip/uart/rtl/helpers/baud_rate_gen.sv:24 YES
+/home/ri65/c2s2/core/ip/cmn/rtl/regs.sv:47 YES
+/home/ri65/c2s2/core/ip/cmn/rtl/regfiles.sv:43 YES
+/home/ri65/c2s2/core/ip/uart/rtl/regs.sv:136 YES
+/home/ri65/c2s2/core/ip/uart/rtl/regs.sv:149 YES
+/home/ri65/c2s2/core/ip/uart/rtl/regs.sv:175 YES
+/home/ri65/c2s2/core/ip/uart/rtl/regs.sv:198 YES
+../uart_test_top.sv:77 YES
+../uart_test_top.sv:115 NO "a dynamic variable" (115)
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.sv:50 NO "a dynamic variable" (50)
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.sv:91 NO "a dynamic type expression" (92)
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.sv:115 NO "a dynamic variable" (115)
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.sv:119 NO "a dynamic variable" (119)
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.sv:233 NO "a non-instrumentable task call: directed_receive" (234)
+../uart_test_top.sv:176 YES
+../uart_test_top.sv:177 YES
+../uart_test_top.sv:178 NO "a dynamic variable" (178)
+../uart_test_top.sv:178 YES
+../uart_test_top.sv:179 NO "a dynamic variable" (179)
+../uart_test_top.sv:179 YES
+../uart_test_top.sv:180 NO "a dynamic variable" (180)
+../uart_test_top.sv:180 YES
+../uart_test_top.sv:181 NO "a dynamic variable" (181)
+../uart_test_top.sv:181 YES
+../uart_test_top.sv:183 NO "a system function with side effects: $$svmbox_num" (183)
+../uart_test_top.sv:183 YES
+../uart_test_top.sv:184 NO "a system function with side effects: $$svmbox_num" (184)
+../uart_test_top.sv:184 YES
+../uart_test_top.sv:185 NO "a system function with side effects: $$svmbox_num" (185)
+../uart_test_top.sv:185 YES
+../uart_test_top.sv:186 NO "a system function with side effects: $$svmbox_num" (186)
+../uart_test_top.sv:186 YES
+../uart_test_top.sv:187 NO "a system function with side effects: $$svmbox_num" (187)
+../uart_test_top.sv:187 YES
+../uart_test_top.sv:188 NO "a system function with side effects: $$svmbox_num" (188)
+../uart_test_top.sv:188 YES
+../uart_test_top.sv:190 YES
+/home/ri65/c2s2/core/ip/cmn/rtl/regs.sv:47 YES
+==================================================
+X P R O P   S T A T I S T I C S
+instrumentable assignments:    105
+instrumented assignments:      93
+instrumentation success rate:  88%

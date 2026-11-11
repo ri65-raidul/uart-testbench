@@ -1,0 +1,52 @@
+<session version="1.1" release="V-2023.12-SP2-1" timestp="2026-11-08 06:47:50 GMT">
+  <info>
+    <attr name="datetime" value="Sun Nov  8 01:47:51 2026
+"/>
+    <attr name="command" value="urg -dir ./simv_uart_test_top_RTL.vdb -format both -report ./simv_uart_test_top_RTL.rpt"/>
+    <attr name="top_instance" value="uart_test_top"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="563/663" />
+    <metric name="Cond" value="288/346" />
+    <metric name="Toggle" value="1643/2308" />
+    <metric name="FSM" value="12/12" />
+    <metric name="Branch" value="208/267" />
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::coverage::cg_frame">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::coverage::cg_tx">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::coverage::cg_status">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::coverage::cg_ctrl">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::coverage::cg_req">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::coverage::cg_rx_access">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

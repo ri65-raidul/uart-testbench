@@ -1,0 +1,12 @@
++incdir+../../../../..
+package/package.sv
+vif/vif.sv
+coverage/coverage.sv
+model/model.sv
+scoreboard/scoreboard.sv
+monitor/monitor_resp.sv
+monitor/monitor_tx.sv
+driver/driver_req.sv
+driver/driver_rx.sv
+uart_test_top.sv
+../../../rtl/uart_top.sv

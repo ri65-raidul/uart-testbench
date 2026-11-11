@@ -1,0 +1,643 @@
+Group : $unit::coverage::cg_status
+
+===============================================================================
+Group : $unit::coverage::cg_status
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+  0.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_status
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 5        5         0       0.00    
+
+
+Variables for Group  $unit::coverage::cg_status
+
+
+VARIABLE        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_status_clear 5        5         0       0.00    100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_status_clear
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        5         0       0.00    
+
+
+User Defined Bins for cp_status_clear
+
+
+Uncovered bins
+
+NAME        COUNT AT LEAST NUMBER 
+multiple    0     1        1      
+tx_overflow 0     1        1      
+overrun     0     1        1      
+frame_err   0     1        1      
+none        0     1        1      
+
+
+Group : $unit::coverage::cg_ctrl
+
+===============================================================================
+Group : $unit::coverage::cg_ctrl
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 40.48 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_ctrl
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 9        6         3       57.14   
+Crosses   14       13        1       7.14    
+
+
+Variables for Group  $unit::coverage::cg_ctrl
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_ctrl_en  2        0         2       100.00  100  1      1        0                    
+cp_baud_div 7        6         1       14.29   100  1      1        0                    
+
+
+Crosses for Group  $unit::coverage::cg_ctrl
+
+
+CROSS     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+cx_en_div 14       13        1       7.14    100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_ctrl_en
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_ctrl_en
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enable_  6     1        
+disable_ 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_baud_div
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        6         1       14.29   
+
+
+User Defined Bins for cp_baud_div
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+b9600   0     1        1      
+b115200 0     1        1      
+b230400 0     1        1      
+b921600 0     1        1      
+max     0     1        1      
+one     0     1        1      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS   
+div_other 6     Excluded 
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+zero 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cx_en_div
+
+
+Samples crossed: cp_ctrl_en cp_baud_div
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 14       13        1       7.14    13      
+
+
+Automatically Generated Cross Bins for cx_en_div
+
+
+Element holes
+
+cp_ctrl_en cp_baud_div COUNT AT LEAST NUMBER 
+[disable_] *           --    --       7      
+
+
+Uncovered bins
+
+cp_ctrl_en cp_baud_div                                       COUNT AT LEAST NUMBER 
+[enable_]  [b9600 , b115200 , b230400 , b921600 , max , one] --    --       6      
+
+
+Covered bins
+
+cp_ctrl_en cp_baud_div COUNT AT LEAST 
+enable_    zero        1     1        
+
+
+Group : $unit::coverage::cg_req
+
+===============================================================================
+Group : $unit::coverage::cg_req
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 80.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_req
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        1         7       91.67   
+Crosses   24       10        14      62.50   
+
+
+Variables for Group  $unit::coverage::cg_req
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_op    2        0         2       100.00  100  1      1        0                    
+cp_reg   4        1         3       75.00   100  1      1        0                    
+cp_en    2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  $unit::coverage::cg_req
+
+
+CROSS        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+cx_op_reg    8        2         6       75.00   100  1      1        0                     
+cx_op_reg_en 16       8         8       50.00   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_op
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_op
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+write 28    1        
+read  30    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_reg
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for cp_reg
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+status 0     1        1      
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+ctrl   12    1        
+rxdata 36    1        
+txdata 10    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_en
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_en
+
+
+Bins
+
+NAME COUNT AT LEAST 
+on   49    1        
+off  9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cx_op_reg
+
+
+Samples crossed: cp_op cp_reg
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        2         6       75.00   2       
+
+
+Automatically Generated Cross Bins for cx_op_reg
+
+
+Element holes
+
+cp_op cp_reg   COUNT AT LEAST NUMBER 
+*     [status] --    --       2      
+
+
+Covered bins
+
+cp_op cp_reg COUNT AT LEAST 
+write ctrl   7     1        
+write rxdata 12    1        
+write txdata 9     1        
+read  ctrl   5     1        
+read  rxdata 24    1        
+read  txdata 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cx_op_reg_en
+
+
+Samples crossed: cp_op cp_reg cp_en
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 16       8         8       50.00   8       
+
+
+Automatically Generated Cross Bins for cx_op_reg_en
+
+
+Element holes
+
+cp_op cp_reg            cp_en COUNT AT LEAST NUMBER 
+*     [status]          *     --    --       4      
+*     [rxdata , txdata] [off] --    --       4      
+
+
+Covered bins
+
+cp_op cp_reg cp_en COUNT AT LEAST 
+write ctrl   on    1     1        
+write ctrl   off   6     1        
+write rxdata on    12    1        
+write txdata on    9     1        
+read  ctrl   on    2     1        
+read  ctrl   off   3     1        
+read  rxdata on    24    1        
+read  txdata on    1     1        
+
+
+Group : $unit::coverage::cg_frame
+
+===============================================================================
+Group : $unit::coverage::cg_frame
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 83.33 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_frame
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        1         7       88.89   
+Crosses   6        2         4       66.67   
+
+
+Variables for Group  $unit::coverage::cg_frame
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_data      3        0         3       100.00  100  1      1        0                    
+cp_frame_err 2        0         2       100.00  100  1      1        0                    
+cp_level     3        1         2       66.67   100  1      1        0                    
+
+
+Crosses for Group  $unit::coverage::cg_frame
+
+
+CROSS        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+cx_err_level 6        2         4       66.67   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_data
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for cp_data
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+other 11    1        
+ones  1     1        
+zero  1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_frame_err
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_frame_err
+
+
+Bins
+
+NAME COUNT AT LEAST 
+bad  2     1        
+good 11    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_level
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        1         2       66.67   
+
+
+User Defined Bins for cp_level
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+full 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+partial 8     1        
+empty   5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cx_err_level
+
+
+Samples crossed: cp_frame_err cp_level
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 6        2         4       66.67   2       
+
+
+Automatically Generated Cross Bins for cx_err_level
+
+
+Element holes
+
+cp_frame_err cp_level COUNT AT LEAST NUMBER 
+*            [full]   --    --       2      
+
+
+Covered bins
+
+cp_frame_err cp_level COUNT AT LEAST 
+bad          partial  1     1        
+bad          empty    1     1        
+good         partial  7     1        
+good         empty    4     1        
+
+
+Group : $unit::coverage::cg_tx
+
+===============================================================================
+Group : $unit::coverage::cg_tx
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_tx
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group  $unit::coverage::cg_tx
+
+
+VARIABLE   EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_tx_byte 3        0         3       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_tx_byte
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for cp_tx_byte
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+other 7     1        
+ones  1     1        
+zero  1     1        
+
+
+Group : $unit::coverage::cg_rx_access
+
+===============================================================================
+Group : $unit::coverage::cg_rx_access
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/../coverage/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::cg_rx_access
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        0         6       100.00  
+Crosses   8        0         8       100.00  
+
+
+Variables for Group  $unit::coverage::cg_rx_access
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_rx_op    2        0         2       100.00  100  1      1        0                    
+cp_rx_level 4        0         4       100.00  100  1      1        0                    
+
+
+Crosses for Group  $unit::coverage::cg_rx_access
+
+
+CROSS          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+cx_rx_op_level 8        0         8       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rx_op
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_rx_op
+
+
+Bins
+
+NAME COUNT AT LEAST 
+pop  12    1        
+peek 24    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rx_level
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for cp_rx_level
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+full    3     1        
+partial 18    1        
+one     10    1        
+empty   5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cx_rx_op_level
+
+
+Samples crossed: cp_rx_op cp_rx_level
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        0         8       100.00          
+
+
+Automatically Generated Cross Bins for cx_rx_op_level
+
+
+Bins
+
+cp_rx_op cp_rx_level COUNT AT LEAST 
+pop      full        1     1        
+pop      partial     6     1        
+pop      one         4     1        
+pop      empty       1     1        
+peek     full        2     1        
+peek     partial     12    1        
+peek     one         6     1        
+peek     empty       4     1        
+
+

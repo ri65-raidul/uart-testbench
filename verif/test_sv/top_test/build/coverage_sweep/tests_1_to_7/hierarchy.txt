@@ -1,0 +1,77 @@
+Design Hierarchy
+
+
+----------------
+SCORE  LINE   COND   TOGGLE FSM    BRANCH               
+ 67.24  65.46  74.28  55.16  75.00  66.29 uart_test_top 
+  
+  ----------------
+  SCORE  LINE   COND   TOGGLE FSM    BRANCH     
+   81.11  97.33  83.86  59.66  75.00  89.71 dut 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH          
+     74.86 100.00  80.00  19.44 --     100.00 baud_gen 
+     94.45  97.83 100.00  97.78  83.33  93.33 receiver 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH              
+       98.61 100.00 100.00  94.44 --     100.00 synchronizer 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH      
+     81.75  98.18  77.13  65.03 --      86.67 regs 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH          
+       93.05 100.00  83.33  97.19 --      91.67 rx_queue 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH              
+         92.11 100.00  83.33  94.20 --      90.91 genblk1.ctrl 
+          
+          ----------------
+          SCORE  LINE   COND   TOGGLE FSM    BRANCH             
+           98.44 100.00 100.00  93.75 --     100.00 deq_ptr_reg 
+           98.44 100.00 100.00  93.75 --     100.00 enq_ptr_reg 
+           96.88 100.00 100.00  87.50 --     100.00 full_reg    
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH               
+        100.00 100.00 --     100.00 --     100.00 genblk1.dpath 
+          
+          ----------------
+          SCORE  LINE   COND   TOGGLE FSM    BRANCH        
+          100.00 100.00 --     100.00 --     100.00 qstore 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH          
+       84.82 100.00  66.67  93.44 --      79.17 tx_queue 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH              
+         82.72 100.00  66.67  86.96 --      77.27 genblk1.ctrl 
+          
+          ----------------
+          SCORE  LINE   COND   TOGGLE FSM    BRANCH             
+           98.44 100.00 100.00  93.75 --     100.00 deq_ptr_reg 
+           98.44 100.00 100.00  93.75 --     100.00 enq_ptr_reg 
+           84.38 100.00 100.00  37.50 --     100.00 full_reg    
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH               
+        100.00 100.00 --     100.00 --     100.00 genblk1.dpath 
+          
+          ----------------
+          SCORE  LINE   COND   TOGGLE FSM    BRANCH        
+          100.00 100.00 --     100.00 --     100.00 qstore 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH             
+     89.72  95.12  95.35  98.61  66.67  92.86 transmitter 
+  
+  ----------------
+  SCORE  LINE   COND   TOGGLE FSM    BRANCH     
+   59.79  82.93  50.00  50.00 --      56.25 t   
+   28.31 --     --      28.31 --     --     vif 
+

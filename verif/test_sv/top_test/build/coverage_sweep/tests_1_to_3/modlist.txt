@@ -1,0 +1,34 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+ 57.01  51.07  68.71  41.68  66.67  56.90 
+
+
+Total modules in report: 14
+-------------------------------------------------------------------------------
+SCORE              LINE     COND     TOGGLE   FSM      BRANCH   NAME                                                    
+ 24.10             --       --        24.10   --       --       uart_if                                                 
+ 27.21             --       --        27.21   --       --       uart_Top                                                
+ 43.30              37.08    28.07    75.00   --        33.04   uart_test_top                                           
+ 57.83              68.89    67.86    27.92   --        66.67   uart_regs                                               
+ 59.79              82.93    50.00    50.00   --        56.25   TestUtilsClkRst                                         
+ 73.62             --        63.33    88.78   --        68.75   cmn_QueueCtrl                                           
+ 74.86             100.00    80.00    19.44   --       100.00   uart_BaudRateGenerator                                  
+ 83.57              97.56    97.67    66.67    66.67    89.29   uart_Receiver                                           
+ 89.72              95.12    95.35    98.61    66.67    92.86   uart_Transmitter                                        
+ 91.41             100.00   100.00    65.62   --       100.00   cmn_ResetReg                                            
+                   
+  ---------------- 
+  SCORE              LINE     COND     TOGGLE   FSM      BRANCH   NAME                                                  
+  100.00             100.00   --       --       --       100.00   cmn_ResetReg                                          
+   68.75             --       100.00    37.50   --       --       cmn_ResetReg ( parameter p_nbits=1,p_reset_value=0 )  
+   96.88             --       100.00    93.75   --       --       cmn_ResetReg ( parameter p_nbits=3,p_reset_value=0 )  
+                   
+----------------   
+SCORE              LINE     COND     TOGGLE   FSM      BRANCH   NAME                                                    
+ 95.59             --       --        95.59   --       --       cmn_Queue                                               
+ 98.61             100.00   100.00    94.44   --       100.00   uart_Synchronizer                                       
+100.00             100.00   --       100.00   --       100.00   cmn_Regfile_1r1w                                        
+100.00             --       --       100.00   --       --       cmn_QueueDpath                                          
+

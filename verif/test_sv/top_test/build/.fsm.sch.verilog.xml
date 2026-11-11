@@ -1,0 +1,14 @@
+<Command name="schRTLInfo"  delimiter="."  >
+<RTLBlock >
+<RTLInfo   name="state_0"  type="2"  fileName="/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv"  >
+    <Seg beginLine="63"  endLine="91"  />
+  </RTLInfo>
+ <Instance name="uart_test_top.dut.transmitter"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="current_state_1"  type="2"  fileName="/home/ri65/c2s2/core/ip/uart/rtl/receiver.sv"  >
+    <Seg beginLine="125"  endLine="146"  />
+  </RTLInfo>
+ <Instance name="uart_test_top.dut.receiver"  />
+</RTLBlock>
+ </Command>

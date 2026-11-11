@@ -1,0 +1,91 @@
+Command: vcs -sverilog -full64 -timescale=1ns/1ps -debug_access+all -f modules.f \
+-o simv -l compile.log
+                         Chronologic VCS (TM)
+      Version V-2023.12-SP2-1_Full64 -- Sat Nov  7 02:35:07 2026
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'package/package.sv'
+Parsing design file 'vif/vif.sv'
+Parsing design file 'coverage/coverage.sv'
+Parsing design file 'model/model.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+model/model.sv, 7
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'scoreboard/scoreboard.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+scoreboard/scoreboard.sv, 6
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'monitor/monitor_resp.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+monitor/monitor_resp.sv, 1
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'monitor/monitor_tx.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+monitor/monitor_tx.sv, 1
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'driver/driver_req.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+driver/driver_req.sv, 1
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'driver/driver_rx.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+driver/driver_rx.sv, 1
+$unit
+  Package 'uart_verif_pkg' already wildcard imported. 
+  Ignoring uart_verif_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file 'uart_test_top.sv'
+Parsing included file '../../../../../ip/uart/verif/test_sv/top_test/tests/uart_directed_tests.svh'.
+Back to file 'uart_test_top.sv'.
+
+Error-[UM] Undefined macro
+uart_test_top.sv, 181
+  Undefined macro exists as: 'TEST_UTILS_CHECK_EQ'   
+  "uart_test_top.sv", 181: token is '`TEST_UTILS_CHECK_EQ'
+          `TEST_UTILS_CHECK_EQ(requests_sent, expected_resp);
+                              ^
+
+1 error
+CPU time: .119 seconds to compile

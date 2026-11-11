@@ -1,0 +1,34 @@
+Dashboard
+
+Date: Sun Nov  8 01:59:17 2026
+
+User: ri65
+
+Version: V-2023.12-SP2-1
+Command line: urg -dir simv_uart_test_top_RTL.vdb -tests coverage_sweep/tests_1_to_7.tests -format text -report coverage_sweep/tests_1_to_7 
+
+Number of tests: 7
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH GROUP  
+ 70.31  65.46  74.28  55.16  75.00  66.29  85.70 
+
+
+-------------------------------------------------------------------------------
+Hierarchical coverage data for top-level instances 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME          
+ 67.24  65.46  74.28  55.16  75.00  66.29 uart_test_top 
+
+
+-------------------------------------------------------------------------------
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+ 65.81  65.09  75.90  48.63  75.00  64.44 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  WEIGHT 
+ 85.70 1      
+
