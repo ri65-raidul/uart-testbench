@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1794120271.576989913, "rt":0.70, "ut":0.38, "st":0.08}}
-{"vcselab":{"timestamp_begin":1794120272.337926692, "rt":0.27, "ut":0.15, "st":0.04}}
-{"link":{"timestamp_begin":1794120272.652619600, "rt":0.21, "ut":0.09, "st":0.06}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1794120271.239960944}
-{"VCS_COMP_START_TIME": 1794120271.239960944}
-{"VCS_COMP_END_TIME": 1794120273.034635970}
-{"VCS_USER_OPTIONS": "-sverilog -full64 -debug_access+all -xprop=tmerge -override_timescale=1ns/1ps -f /home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test/build/modules.f -top uart_test_top +incdir+/home/ri65/c2s2/core -o simv_uart_test_top_RTL +vcs+dumpvars+waves.vcd +vcs+vcdpluson +vcs+vcdplusmemon -cm line+cond+tgl+fsm+branch+assert +delay_mode_zero +define+RTL +incdir+/home/ri65/c2s2/core+/home/ri65/c2s2/core/ip/uart/verif/test_sv/top_test"}
-{"vcs1": {"peak_mem": 399360}}
-{"vcselab": {"peak_mem": 260780}}
