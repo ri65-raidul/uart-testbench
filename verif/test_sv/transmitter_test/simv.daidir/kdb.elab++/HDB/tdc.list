@@ -1,9 +1,0 @@
-../../../rtl/transmitter.sv
-driver/driver.sv
-model/model.sv
-monitor/monitor.sv
-package/package.sv
-scoreboard/scoreboard.sv
-tests/directed_tests.sv
-uart_transmitter_test_top.sv
-vif/uart_tx_if.sv

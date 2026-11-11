@@ -1,0 +1,4 @@
+# Ignore everything inside build/...
+build/*
+# ...except the Makefile
+!build/Makefile

@@ -1,9 +1,0 @@
-/home/ri65/c2s2/core/ip/uart/rtl/transmitter.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/driver/driver.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/model/model.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/monitor/monitor.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/package/package.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/scoreboard/scoreboard.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/tests/directed_tests.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/uart_transmitter_test_top.sv
-/home/ri65/c2s2/core/ip/uart/verif/test_sv/transmitter_test/vif/uart_tx_if.sv
